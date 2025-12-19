@@ -1,4 +1,4 @@
-import { Product } from "@/api/types/product";
+import { Product } from "@/types/product";
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 

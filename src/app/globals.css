@@ -166,24 +166,21 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply m-0 border-border p-0 font-[inherit] outline-ring/50;
+  }
+  img,
+  picture,
+  svg {
+    @apply block max-w-full;
   }
   body {
     @apply bg-background text-foreground;
-
     /* font-family: font-light, font-bold;
-    box-sizing: border-box;
-    background-color: var(--background);
-
     line-height: 25px;
     font-size: 16px;
-    font-weight: 400;
-    color: var(--primaryText);
-
-    max-width: 500px;
-    height: 100%;
-    margin: 0 auto; */
+    font-weight: 400; */
   }
+  /* if exists should be here */
   /* @font-face {
     font-family: font-light;
     src: url("/fonts/font-light.woff") format("woff");

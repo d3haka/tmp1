@@ -1,0 +1,8 @@
+{
+   "printWidth": 92,
+   "arrowParens": "avoid",
+
+   "plugins": ["prettier-plugin-tailwindcss"],
+   "tailwindStylesheet": "./src/app/globals.css",
+   "tailwindFunctions": ["cva"]
+}

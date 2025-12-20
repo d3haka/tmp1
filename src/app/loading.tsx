@@ -1,15 +1,7 @@
 //to be updated to chadcn spinner
 export default function Loading() {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-        fontSize: 14,
-      }}
-    >
+    <div dir="rtl" className="flex h-screen items-center justify-center text-sm">
       در حال بارگذاری ...
     </div>
   );

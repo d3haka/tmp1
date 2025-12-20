@@ -1,4 +1,4 @@
-import { Product } from "./types/product";
+import { Product } from "@/types/product";
 
 export type ProductsResData = {
   products: Product[];
